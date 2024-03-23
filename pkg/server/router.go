@@ -81,7 +81,7 @@ func (s *server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	fmt.Fprint(w, "NOT FOUND")
+	sendReply(w, http.StatusNotFound, "not found")
 }
 
 func sendReply(w http.ResponseWriter, httpCode int, output interface{}) {

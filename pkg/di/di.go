@@ -1,9 +1,9 @@
 package di
 
 import (
-	"qrdb/qrdb/pkg/config"
-	"qrdb/qrdb/pkg/database"
-	"qrdb/qrdb/pkg/uid"
+	"qrdb/pkg/config"
+	"qrdb/pkg/database"
+	"qrdb/pkg/uid"
 )
 
 type Dependencies struct {

@@ -1,7 +1,7 @@
 package uid
 
 import (
-	"qrdb/qrdb/pkg/libs/random"
+	"qrdb/pkg/libs/random"
 )
 
 type UIDGenerator interface {

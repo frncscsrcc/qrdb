@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"net/http"
-	"qrdb/qrdb/pkg/services/qrcode"
+	"qrdb/pkg/services/qrcode"
 )
 
 type CreateQRCode struct{}

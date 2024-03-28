@@ -3,8 +3,8 @@ package qrcode
 import (
 	"context"
 	"net/http"
-	"qrdb/qrdb/pkg/server/myctx"
-	"qrdb/qrdb/pkg/services/qrcode"
+	"qrdb/pkg/server/myctx"
+	"qrdb/pkg/services/qrcode"
 )
 
 type GetData struct{}

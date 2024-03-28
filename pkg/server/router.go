@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"qrdb/qrdb/pkg/server/myctx"
-	"qrdb/qrdb/pkg/server/routes/qrcode"
+	"qrdb/pkg/server/myctx"
+	"qrdb/pkg/server/routes/qrcode"
 	"strings"
 )
 

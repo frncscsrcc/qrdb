@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"net/http"
-	"qrdb/qrdb/pkg/server/myctx"
+	"qrdb/pkg/server/myctx"
 
 	qrcode "github.com/skip2/go-qrcode"
 )

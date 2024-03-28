@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"errors"
 	"log"
-	"qrdb/qrdb/pkg/config"
-	"qrdb/qrdb/pkg/database/migrations"
+	"qrdb/pkg/config"
+	"qrdb/pkg/database/migrations"
 	"sync"
 	"time"
 
@@ -58,7 +58,7 @@ func (pool *ConnectionPool) GetConnection() (*Connection, error) {
 		for i, connection := range pool.connections {
 			if connection.free {
 				connection.free = false
-				log.Print("Returned connection ", i)
+				log.Print("Returned connection from pool id=", i)
 				return connection, nil
 			}
 		}

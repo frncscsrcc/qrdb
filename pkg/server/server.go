@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"qrdb/qrdb/pkg/di"
-	"qrdb/qrdb/pkg/server/routes"
-	"qrdb/qrdb/pkg/server/routes/qrcode"
+	"qrdb/pkg/di"
+	"qrdb/pkg/server/routes"
+	"qrdb/pkg/server/routes/qrcode"
 )
 
 type server struct {

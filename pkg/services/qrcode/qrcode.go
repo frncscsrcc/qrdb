@@ -2,9 +2,9 @@ package qrcode
 
 import (
 	"log"
-	"qrdb/qrdb/pkg/database"
-	"qrdb/qrdb/pkg/di"
-	"qrdb/qrdb/pkg/uid"
+	"qrdb/pkg/database"
+	"qrdb/pkg/di"
+	"qrdb/pkg/uid"
 	"time"
 )
 
@@ -39,8 +39,6 @@ func (s qrCodeService) Create(data map[string]string) (string, error) {
 			return "", err
 		}
 	}
-
-	time.Sleep(5 * time.Second)
 
 	s.dbSession.Commit()
 

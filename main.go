@@ -1,8 +1,8 @@
 package main
 
 import (
-	"qrdb/qrdb/pkg/di"
-	"qrdb/qrdb/pkg/server"
+	"qrdb/pkg/di"
+	"qrdb/pkg/server"
 )
 
 func main() {
